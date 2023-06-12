@@ -1,0 +1,59 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#countLabel {
+    display: block;
+    font-size: 70px;
+    margin-bottom: 10px;
+}
+
+.buttons-container {
+    display: flex;
+}
+
+button {
+    border: none;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 500px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+button:last-child {
+    margin-right: 0;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+button:active {
+    background-color: #003080;
+}
+
+#resetBtn {
+    background-color: #dc3545;
+}
+
+#resetBtn:hover {
+    background-color: #a71d2a;
+}
+
+#resetBtn:active {
+    background-color: #5a0c14;
+}
